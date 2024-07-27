@@ -4,7 +4,10 @@ bio:                'I am apple'
 description:        "hahahahahahaha"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               '<img
+  class="fit-picture"
+  src="/media/cc0-images/grapefruit-slice-332-332.jpg"
+  alt="Grapefruit slice atop a pile of other slices" />'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
