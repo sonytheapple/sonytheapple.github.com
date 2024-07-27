@@ -12,7 +12,7 @@ baseurl:            ""
 #url:                https://taylantatli.github.io/Moon
 # Jekyll
 permalink:          /:title/
-markdown:           kramdown
+markdown:           <iframe width="640" height="420" src="https://playentry.org/iframe/65ffeb52ea51b80295abea9a" frameborder="0"></iframe>
 highlighter:        rouge
 kramdown:
   auto_ids:         true
