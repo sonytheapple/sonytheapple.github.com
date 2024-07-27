@@ -4,7 +4,7 @@ bio:                'I am apple'
 description:        "hahahahahahaha"
 reading_time:       true
 words_per_minute:   200
-logo:               'https://images.app.goo.gl/XQUXDm4oG7zTo3cw9'
+logo:               'https://img.hankyung.com/photo/202403/AA.36104679.1.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
