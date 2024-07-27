@@ -5,7 +5,7 @@ description:        "hahahahahahaha"
 reading_time:       true
 words_per_minute:   200
 logo:               'https://img.hankyung.com/photo/202403/AA.36104679.1.jpg'
-background:         'assets/img/placeholder-big.jpg'
+background:         'https://previews.123rf.com/images/zoomteam/zoomteam1510/zoomteam151000050/46104213-%EC%82%AC%EA%B3%BC-%EA%B3%BC%EC%88%98%EC%9B%90.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 baseurl:            ""
