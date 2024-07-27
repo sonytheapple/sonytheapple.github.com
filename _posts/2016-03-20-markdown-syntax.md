@@ -12,10 +12,6 @@ tag:
 comments: true
 ---
 
-## HTML Elements
-
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
-
 # 당신은 과연 당신의 전화번호를 숨길 수 있다고 생각하세요?
 
 # 저에겐 숨길수 없답니다^^
@@ -32,4 +28,4 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ## 그런다음 2를 나누면...
 
-<img src="/examples/images/img_monalisa.png](https://st.depositphotos.com/1049680/2348/i/950/depositphotos_23480907-stock-photo-human-hand-pointing.jpg"/>
+## 니놈의 전화번호를 알아버렸다
