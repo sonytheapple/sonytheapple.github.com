@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Markdown Syntax"
+title:  "당신의 전화번호를 알아맞히겠습니다"
 date:   2016-03-15
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+excerpt: "니놈의 전화번호를 관신법으로 맞히겠다"
 tag:
 - markdown 
 - syntax
@@ -16,32 +16,23 @@ comments: true
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
-# Heading 1
+# 당신은 과연 당신의 전화번호를 숨길 수 있다고 생각하세요?
 
-## Heading 2
+# 저에겐 숨길수 없답니다^^
 
-### Heading 3
+## 자 일단 계산기를 먼저 준비하세요
 
-#### Heading 4
+## 당신의 전화번호의 앞자리(예를들어 전화번호가 010-1234-5678이라면 1234)를 250에 곱해주세요
 
-##### Heading 5
+## 그다음에 다시 80을 곱해주세요
 
-###### Heading 6
+## 그 다음 당신의 전화번호의 뒷자리(예를들어 전화번호가 010-1234-5678이라면 5678)를 더해주세요
 
-### Body text
+## 또 더해주세요
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
-
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+## 그런다음 2를 나누면...
 
 ### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 
 ## List Types
 
