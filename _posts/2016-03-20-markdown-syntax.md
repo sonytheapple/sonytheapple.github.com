@@ -32,4 +32,4 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ## 그런다음 2를 나누면...
 
-<img src="/https://st2.depositphotos.com/1672707/7442/v/950/depositphotos_74428275-stock-illustration-finger-or-hand-pointing-icon.jpg">
+<img src="/https://st.depositphotos.com/1049680/2348/i/950/depositphotos_23480907-stock-photo-human-hand-pointing.jpg">
