@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Moon Jekyll 테마로 작성한 첫 번째 포스팅"
-date: 2025-12-14 20:29:00 +0900
-categories: [프로그래밍, 기술]
-tags: [jekyll, moon, blog, markdown]
-description: "이 포스팅은 Moon 테마를 사용하여 작성된 내용의 요약입니다. 이 설명은 검색 엔진 결과와 미리보기에 표시됩니다."
-# image: /assets/img/post-bg.jpg  # 포스팅 상단에 배경 이미지를 추가하고 싶을 때 사용
-# show_tile: false                # (선택 사항) 이 포스트를 메인 페이지 타일 목록에서 숨기고 싶을 때
-# excerpt: "간결한 포스트 요약입니다." # description 대신 요약으로 사용될 수 있습니다.
+title:  "Moon Jekyll 테마로 작성한 첫 번째 포스팅"
+date:   2025-12-14 20:29:00 +0900
+excerpt: "^^"
+tag:
+- markdown 
+- syntax
+- sample
+- test
+- jekyll
+comments: true
 ---
 
 ## 🚀 환영합니다!
