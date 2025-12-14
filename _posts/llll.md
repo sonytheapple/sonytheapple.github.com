@@ -1,29 +1,39 @@
-classDiagram
-    direction LR
-    
-    class Vehicle {
-        <<abstract>>
-        +String model
-        +int year
-        +void start()
-    }
+---
+layout: post
+title: "Moon Jekyll 테마로 작성한 첫 번째 포스팅"
+date: 2025-12-14 20:29:00 +0900
+categories: [프로그래밍, 기술]
+tags: [jekyll, moon, blog, markdown]
+description: "이 포스팅은 Moon 테마를 사용하여 작성된 내용의 요약입니다. 이 설명은 검색 엔진 결과와 미리보기에 표시됩니다."
+# image: /assets/img/post-bg.jpg  # 포스팅 상단에 배경 이미지를 추가하고 싶을 때 사용
+# show_tile: false                # (선택 사항) 이 포스트를 메인 페이지 타일 목록에서 숨기고 싶을 때
+# excerpt: "간결한 포스트 요약입니다." # description 대신 요약으로 사용될 수 있습니다.
+---
 
-    class Car {
-        -String licensePlate
-        +Engine engine
-        +void drive()
-    }
+## 🚀 환영합니다!
 
-    class Bicycle {
-        -int numberOfGears
-        +void ride()
-    }
-    
-    class Engine {
-        +int horsepower
-        +String fuelType
-    }
+이것은 **Moon Jekyll 테마**를 사용해 작성한 새로운 포스팅입니다.
 
-    Vehicle <|-- Car : 상속 (Inheritance)
-    Vehicle <|-- Bicycle : 상속 (Inheritance)
-    Car "1" *-- "1" Engine : 포함 (Composition)
+### 💡 주요 섹션 설명
+
+1.  **`layout: post`**:
+    * **필수 항목**입니다. Jekyll이 이 파일을 개별 포스팅 페이지로 렌더링하도록 지시합니다.
+2.  **`title: "..."`**:
+    * **필수 항목**입니다. 포스팅의 제목입니다.
+3.  **`date: YYYY-MM-DD HH:MM:SS +0900`**:
+    * **필수 항목**입니다. 포스팅 날짜와 시간입니다. 시간대 오프셋 (`+0900`은 한국 시간)을 포함하는 것이 좋습니다.
+4.  **`categories: [...]`**:
+    * **선택 사항**이지만 권장됩니다. 포스팅을 분류하는 데 사용됩니다. 목록 형태로 지정합니다.
+5.  **`tags: [...]`**:
+    * **선택 사항**이지만 권장됩니다. 포스팅 내용을 나타내는 키워드입니다. 목록 형태로 지정합니다.
+6.  **`description: "..."`**:
+    * **권장 항목**입니다. 포스팅의 SEO (검색 엔진 최적화)에 사용되는 요약 설명입니다. Moon 테마의 미리보기 카드에도 사용될 수 있습니다.
+
+> **팁:** 포스팅 파일 이름은 반드시 `YYYY-MM-DD-제목.md` 형식을 따라야 Jekyll이 정상적으로 인식합니다.
+
+### 🖼️ 이미지 추가하기
+
+Moon 테마는 이미지 처리를 잘 지원합니다.
+
+```markdown
+![이미지 설명](assets/img/your-image-name.jpg)
