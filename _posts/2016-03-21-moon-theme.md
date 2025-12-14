@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Moon Jekyll 테마로 작성한 첫 번째 포스팅"
+title:  "Mermaid를 활용한 인간 진화 과정 클래스 다이어그램"
 date:   2025-12-13 20:29:00 +0900
-excerpt: "^^"
+excerpt: "인간은 신기한거야"
 tag:
 - markdown 
 - syntax
@@ -12,30 +12,79 @@ tag:
 comments: true
 ---
 
-## 🚀 환영합니다!
+안녕하세요! 오늘은 UML(통합 모델링 언어) 다이어그램을 블로그에 쉽게 구현할 수 있게 해주는 **Mermaid** 문법을 사용하여 **인간 진화 과정**을 클래스 다이어그램으로 모델링해 보았습니다.
 
-이것은 **Moon Jekyll 테마**를 사용해 작성한 새로운 포스팅입니다.
+이 다이어그램은 주요한 '종(Species)'을 클래스로 표현하고, '상속(Inheritance)' 관계를 통해 진화적 계통을 시각적으로 나타냅니다.
 
-### 💡 주요 섹션 설명
+---
 
-1.  **`layout: post`**:
-    * **필수 항목**입니다. Jekyll이 이 파일을 개별 포스팅 페이지로 렌더링하도록 지시합니다.
-2.  **`title: "..."`**:
-    * **필수 항목**입니다. 포스팅의 제목입니다.
-3.  **`date: YYYY-MM-DD HH:MM:SS +0900`**:
-    * **필수 항목**입니다. 포스팅 날짜와 시간입니다. 시간대 오프셋 (`+0900`은 한국 시간)을 포함하는 것이 좋습니다.
-4.  **`categories: [...]`**:
-    * **선택 사항**이지만 권장됩니다. 포스팅을 분류하는 데 사용됩니다. 목록 형태로 지정합니다.
-5.  **`tags: [...]`**:
-    * **선택 사항**이지만 권장됩니다. 포스팅 내용을 나타내는 키워드입니다. 목록 형태로 지정합니다.
-6.  **`description: "..."`**:
-    * **권장 항목**입니다. 포스팅의 SEO (검색 엔진 최적화)에 사용되는 요약 설명입니다. Moon 테마의 미리보기 카드에도 사용될 수 있습니다.
+### 🧬 인간 진화 과정 클래스 다이어그램
 
-> **팁:** 포스팅 파일 이름은 반드시 `YYYY-MM-DD-제목.md` 형식을 따라야 Jekyll이 정상적으로 인식합니다.
+아래 Mermaid 코드를 사용하여 렌더링한 결과입니다.
 
-### 🖼️ 이미지 추가하기
 
-Moon 테마는 이미지 처리를 잘 지원합니다.
 
-```markdown
-![이미지 설명](assets/img/your-image-name.jpg)
+```mermaid
+classDiagram
+    direction LR
+
+    class Hominidae {
+        +Family
+        -Bipedalism
+        -BrainSize
+    }
+
+    class Australopithecus {
+        +Genus
+        +SmallBrain
+        +FullyBipedal
+    }
+
+    class Homo {
+        +Genus
+        +LargeBrain
+        +ToolUse
+    }
+
+    class Habilis {
+        +Species
+        +SimpleStoneTools (Oldowan)
+    }
+
+    class Erectus {
+        +Species
+        +FireControl
+        +MigratedOutOfAfrica
+        +AdvancedTools (Acheulean)
+    }
+
+    class Neanderthalensis {
+        +Species
+        +RobustBuild
+        +ComplexCulture
+    }
+
+    class Sapiens {
+        +Species
+        +ModernAnatomy
+        +ComplexLanguage
+        +Art
+    }
+
+    Hominidae <|-- Australopithecus : 진화 (Evolution)
+    Hominidae <|-- Homo : 진화 (Evolution)
+
+    Australopithecus <|-- Habilis : 진화 (Evolution)
+
+    Homo <|-- Habilis : Genus
+    Homo <|-- Erectus : Genus
+    Homo <|-- Neanderthalensis : Genus
+    Homo <|-- Sapiens : Genus
+
+    Habilis --> Erectus : 진화 (Evolution)
+    Erectus --> Sapiens : 진화 (Evolution)
+    Erectus --> Neanderthalensis : 진화 (Evolution)
+
+    note for Erectus "Homo Ergaster 포함 가능"
+    note for Neanderthalensis "유럽 및 아시아"
+    note for Sapiens "현생 인류 (Modern Humans)"
