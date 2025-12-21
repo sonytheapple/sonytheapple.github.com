@@ -2,7 +2,7 @@
 layout: post
 title:  "다중 메시징 프로토콜을 지원하는 Chat UI 설계 및 구조 분석"
 date:   2025-12-18
-excerpt: "ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ"
+excerpt: "이것은 매우 신박한!!!!"
 tag:
 - markdown 
 - syntax
