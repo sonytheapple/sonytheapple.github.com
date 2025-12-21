@@ -11,7 +11,6 @@ tag:
 - jekyll
 comments: true
 ---
-
 대규모 시스템이나 분역 환경에서는 서비스의 목적에 따라 NATS, RabbitMQ, Redis 등 서로 다른 메시징 브로커를 선택하게 됩니다. 이번 포스팅에서는 이 세 가지 클라이언트를 하나의 UI에서 통합 관리할 수 있는 객체지향적 구조를 클래스 다이어그램과 함께 소개합니다.
 
 ## 1. 시스템 클래스 다이어그램
@@ -67,4 +66,4 @@ classDiagram
 
     NatsClient ..> ChatUI : calls on_message()
     RabbitClient ..> ChatUI : calls on_message()
-    RedisClient ..> ChatUI : calls on_message()<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    RedisClient ..> ChatUI : calls on_message()
