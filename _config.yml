@@ -1,68 +1,41 @@
 # Site
-title:              Apple_Y
-bio:                '세계 최고로 가장 안전하고 좋은곳은 우리집'
-description:        "hahahahahahaha"
-reading_time:       true
-words_per_minute:   200
+title:            Apple_Y
+bio:              '세계 최고로 가장 안전하고 좋은곳은 우리집'
+description:      "hahahahahahaha"
+reading_time:      true
+words_per_minute:    200
 logo:               'https://img.hankyung.com/photo/202403/AA.36104679.1.jpg'
 background:         'https://previews.123rf.com/images/zoomteam/zoomteam1510/zoomteam151000050/46104213-%EC%82%AC%EA%B3%BC-%EA%B3%BC%EC%88%98%EC%9B%90.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 baseurl:            ""
-#url:                https://taylantatli.github.io/Moon
+
 # Jekyll
 permalink:          /:title/
-markdown:           <iframe width="640" height="420" src="https://playentry.org/iframe/65ffeb52ea51b80295abea9a" frameborder="0"></iframe>
+markdown:           kramdown  # 이 부분을 iframe에서 kramdown으로 수정했습니다.
 highlighter:        rouge
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+  auto_ids:          true
+  footnote_nr:       1
+  entity_output:     as_char
+  toc_levels:        1..6
+  enable_coderay:    false
 mathjax:            true
 sass:
-  sass_dir:         _sass
-  style:            compressed
+  sass_dir:          _sass
+  style:             compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:    taylantatli
 
 # Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
 twitter:            username
 facebook:           username
 github-url:         sonytheapple
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
 instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
 steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
 
-# Gems
+# Gems (Moon 테마 버전에 따라 'plugins'로 써야 할 수도 있습니다)
 gems:
   - jekyll-mentions
   - jekyll-feed
