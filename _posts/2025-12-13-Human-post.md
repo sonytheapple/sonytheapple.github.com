@@ -68,14 +68,3 @@ classDiagram
     NatsClient ..> ChatUI : calls on_message()
     RabbitClient ..> ChatUI : calls on_message()
     RedisClient ..> ChatUI : calls on_message()<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-
-<script>
-  $(document).ready(function () {
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: 'default' // 또는 'dark'
-    });
-    // 코드 블록 중 language-mermaid 클래스를 가진 요소를 찾아 렌더링
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-  });
-</script>
